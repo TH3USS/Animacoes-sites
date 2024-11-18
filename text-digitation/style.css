@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1&display=swap');
+
+*,::after::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(210deg, #042500, #000508);
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+    display: block;
+    color: #17c900;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    border-right: 16px solid #1cf100;
+    white-space: nowrap;
+
+    overflow:hidden;
+
+    width: 0; /*ch - unidade de caracter*/
+
+    animation: mark.5s step-end infinite, write 6s steps(22, end) infinite;
+}
+
+@keyframes mark {
+    50%{
+        border-right-color: transparent;
+    }
+}
+@keyframes write {
+    20%{
+        width: 59.5ch;
+    }
+    70%{
+        width: 59.5ch;
+    }
+    85%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
