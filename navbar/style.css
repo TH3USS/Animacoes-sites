@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fe775a;
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #fe775a;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner{
+    height: 100vh;
+    background-color: #fe775a;
+    background-image: url(#);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 4rem;
+}
+
+.banner h1 span{
+    color: #ffae81;
+}
