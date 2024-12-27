@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1&display=swap');
+
+body{
+    background-color: rgb(192, 192, 192);
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 800;
+    place-items: center;
+    text-align: center;
+}
+
+.image{
+    height: 100vh;
+    margin-top: 15%;
+    margin-bottom: -15%;
+}
+
+img{
+    height: 200px;
+}
+
+.texts{
+    padding-top: 5%;
+    background-color: rgb(22, 22, 22);
+    height: 100vh;
+}
+
+.a{
+    transform: translateX(-10%);
+}
+
+.b{
+    transform: translateX(10%);
+}
+
+.c{
+    transform: translateX(-20%);
+}
+
+#container3D{
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+}

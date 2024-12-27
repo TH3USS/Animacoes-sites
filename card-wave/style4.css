@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(7, 0, 15);   
+    overflow: hidden; 
+}
+
+.list{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 5px;
+}
+
+.item img{
+    height: 160px;
+}
+
+.list{
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.list .item{
+    transition: .5s;
+    filter: brightness(0);
+}
+
+.list .item:hover{
+    filter: brightness(1);
+    transform: translateZ(200px);
+}
+
+.list .item:hover + *{
+    filter: brightness(0.6);
+    transform: translateZ(150px) rotateY(40deg);
+}
+
+.list .item:hover + * + *{
+    filter: brightness(0.4);
+    transform: translateZ(70px) rotateY(20deg);
+}
+
+.list .item:hover + * + * + *{
+    filter: brightness(0.2);
+    transform: translateZ(30px) rotateY(10deg);
+}
+
+.list .item:has(+ *:hover){
+    filter: brightness(0.6);
+    transform: translateZ(150px) rotateY(-40deg);
+}
+
+.list .item:has(+ * + *:hover){
+    filter: brightness(0.4);
+    transform: translateZ(70px) rotateY(-20deg);
+}
+
+.list .item:has(+ * + * + *:hover){
+    filter: brightness(0.2);
+    transform: translateZ(30px) rotateY(-10deg);
+}
