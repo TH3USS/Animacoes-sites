@@ -1,20 +1,22 @@
-# Site com Animações  
+# Website with Animations
 
-### Um site interativo com animações modernas!  
+### An interactive website with modern animations!
 
-Este projeto apresenta um site, com diversos exemplos de animações feitas com **HTML, CSS e JavaScript**.  
+This project presents a website with various examples of animations made with **HTML, CSS, and JavaScript**.
 
 <hr>  
 
-## Sobre o Projeto  
-Oi, eu sou o Matheus 👋<br>  
-Esse é um projeto desenvolvido com **HTML, CSS e JavaScript**, explorando animações para tornar a navegação mais fluida e interativa.  
+## About the Project
 
-### Funcionalidades:  
-- Animações em elementos ao rolar a página.  
-- Efeitos de hover para realce interativo.  
-- Transições suaves entre seções.
+Hi, I’m Matheus 👋<br>
+This is a project developed with **HTML, CSS, and JavaScript**, exploring animations to make navigation smoother and more interactive.
+
+### Features:
+
+* Animations on elements when scrolling the page.
+* Hover effects for interactive highlighting.
+* Smooth transitions between sections.
 
 <br>  
 
-> Este projeto foi desenvolvido para aprimorar minhas habilidades em animações CSS e interações JavaScript, tornando interfaces mais dinâmicas e atraentes.  
+> This project was developed to improve my skills in CSS animations and JavaScript interactions, making interfaces more dynamic and engaging.
